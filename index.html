@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+
+    <!--link the external files -->
+        <!-- add a font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    -->
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  
+    <div class="container">
+         
+    <!-- container for weather information  -->
+    <div class="weather">
+        <!-- placeholder info  -->
+        <div class="header">
+            <h2 class="city child"> Weather in Tokyo</h2>
+            <h2 class="child"> , </h2>
+            <h2 class="country child"> Japan </h2>
+        </div>            
+            <div class="image">
+            <img src=" " alt= " " class ="icon">
+            </div>
+        
+            <div class="temp"> 51 °C </div>
+
+        <!-- div for the descrption-->
+        <div class="information" >
+            <div class="description"> Cloudy</div>
+            <p style="margin-left: 5px; margin-right: 5px"> ○ </p>
+            <div class="humidity"> Humidity: 60%</div>
+        </div>
+        
+        <!-- div for the search bar and button -->
+        <div class="barnbutton">  
+            <!-- create a text input -->
+            <input class="search" type="text" placeholder="Enter City Name">
+            <!-- create a button  -->
+            <button class="but" type="button"> <span> Submit </span>  </button>
+            
+        </div>
+        
+    </div>
+
+</div>    
+
+
+<script src="./app.js" defer></script>
+
+</body>
+
+</html>

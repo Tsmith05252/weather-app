@@ -1,0 +1,127 @@
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,46,94,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+
+.container {
+    background: #000000d0;  
+    color: white;
+    padding: 2em; 
+    border-radius: 30px;
+    margin: 1em; 
+
+}
+
+.header
+{
+    text-align: center;
+    font-weight: bold; 
+    font-size: 18px; 
+
+}
+
+/* Search bar */
+.search {
+    margin: 0 auto;
+    display: block;
+    border-radius: 18px;
+    width: 60px; 
+    height: 30px; 
+    opacity: 0.9; 
+    margin-bottom: 10px; 
+    margin-left: 20px; 
+ 
+}
+
+
+.city
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+
+}
+
+
+.temp {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: bold; 
+    
+}
+
+.information 
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    float: left;  
+    margin-top: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    font-size: 20px;
+    padding: 10px; 
+    
+}
+
+.image  
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+/* Search bar and button div  */
+.barnbutton
+{
+    align-items: center; 
+    margin-left: 45px; 
+    margin-right: 30px; 
+
+}
+
+input[type=text]
+{
+    width: 150px;
+    border-radius: 8px; 
+}
+
+.but{
+
+    color: #0099CC; 
+    background-color: transparent; 
+    border: 2px solid #0099CC; 
+    border-radius: 5px; 
+    text-transform: uppercase; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    border-radius: 8px 5%; 
+    margin-left: 50px; 
+    margin-bottom: 30px; 
+   
+}
+
+.but:hover
+{
+    opacity: 0.5;
+
+}
+
+.child 
+{
+    display: inline-block; 
+}
+
+
